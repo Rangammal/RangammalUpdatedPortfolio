@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(138, 137, 137, 0.2));
+}
+
+.navbar-light .navbar-text {
+    font-size: 23px !important;
+    text-decoration: none;
+    color: rgb(71 65 147) !important;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar {
+    padding: 0.5rem 100px;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.nav-link {
+    font-size: 17px;
+    color: #474193 !important;
+}
+
+
+/* .navbar-light.navbar-text {
+    color: rgb(253 186 6) !important;
+} */
+
+.intro-sec-text-img {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.intro-text h2 {
+    color: #fdba06;
+    font-size: 50px;
+}
+
+.intro-text h1 {
+    color: #474193;
+    font-size: 60px;
+}
+
+.intro-text h3 {
+    color: #6b696d;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.intro-text p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5e7385;
+}
+
+.intro-view-btn button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #474193;
+    border: none;
+    color: white;
+}
+
+.aboutus-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-info {
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 2;
+}
+
+.about-us-info li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.aboutus-content h2 {
+    font-size: 40px;
+    color: #474193;
+}
+
+.aboutus-content h1 {
+    font-size: 45px;
+    color: #fdba06;
+}
+
+.aboutus-line {
+    margin-bottom: 20px;
+}
+
+.aboutus-line-style {
+    height: 2px;
+    width: 80px;
+    background-color: #fdba06;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.project-styles {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.myprojects-heading h2 {
+    color: #474193;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.project-styles-row {
+    display: flex !important;
+    justify-content: center;
+}
+
+.project-bg {
+    background-color: #efff8e;
+}
+
+.card {
+    box-shadow: 1px 1px 15px 3px #c1c1c1;
+    border-radius: 20px !important;
+}
+
+.project-check-btn {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.project-check-btn a {
+    text-decoration: none;
+}
+
+.check-btn {
+    padding: 8px 25px;
+    background-color: #474193;
+    color: white;
+}
+
+.social-icon {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.social-icon i {
+    font-size: 30px;
+    color: black;
+    margin-right: 20px;
+}
+
+.navigation-menu {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 2;
+}
+
+.navigation-menu li {
+    font-size: 17px;
+}
+
+.footer-bg {
+    background-color: #d723f55e;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.footer-contact {
+    padding: 30px 100px;
+}
+
+.contact-btn button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #474193;
+    color: white;
+}
+
+.copy-right {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.intro-bg {
+    background-color: aliceblue;
+}
+
+
+/* .navbar-text {
+    color: black;
+} */

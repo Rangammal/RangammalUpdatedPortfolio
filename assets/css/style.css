@@ -9,9 +9,10 @@
     overflow: hidden;
 } */
 
-.navbar-container {
+
+/* .navbar-container {
     filter: drop-shadow(0 0.2rem 0.25rem rgba(138, 137, 137, 0.2));
-}
+} */
 
 .navbar-light .navbar-text {
     font-size: 23px !important;
@@ -26,7 +27,7 @@
 }
 
 .navbar {
-    padding: 0.5rem 100px;
+    padding: 0.5rem 0px;
 }
 
 .navbar-nav {
@@ -260,7 +261,7 @@
 }
 
 .footer-contact {
-    padding: 30px 0;
+    padding: 30px 100px;
 }
 
 .contact-btn button {
@@ -361,6 +362,9 @@
     .card-style-resp {
         display: flex;
         justify-content: center;
+    }
+    .footer-contact {
+        padding: 30px;
     }
 }
 

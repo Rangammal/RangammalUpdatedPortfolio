@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+/* body {
+    overflow: hidden;
+} */
+
 .navbar-container {
     filter: drop-shadow(0 0.2rem 0.25rem rgba(138, 137, 137, 0.2));
 }
@@ -33,6 +38,17 @@
     color: #474193 !important;
 }
 
+.nav-link:hover {
+    color: rgb(23, 145, 4);
+    font-weight: 600;
+}
+
+.nav-item:hover {
+    height: 2px;
+    background-color: orangered;
+    transition: linear 2s;
+}
+
 
 /* .navbar-light.navbar-text {
     color: rgb(253 186 6) !important;
@@ -44,8 +60,24 @@
     margin: 0px 100px;
 }
 
+.intro-image img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.intro-image :hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.intro-bg {
+    background: linear-gradient(90deg, rgba(168, 242, 180, 1) 0%, rgb(124 255 48) 71%, rgba(0, 255, 98, 1) 100%);
+}
+
 .intro-text h2 {
-    color: #fdba06;
+    color: #fa4400;
     font-size: 50px;
 }
 
@@ -70,9 +102,16 @@
     padding: 10px 30px;
     border-radius: 10px;
     font-size: 18px;
+    background-color: white;
+    border: 2px solid white;
+    color: #474193;
+}
+
+.intro-view-btn button:hover {
     background-color: #474193;
-    border: none;
     color: white;
+    border: none;
+    transition: ease 1s;
 }
 
 .aboutus-section {
@@ -85,6 +124,23 @@
     list-style-type: none;
     padding-left: 0px;
     line-height: 2;
+}
+
+.about-us-info a {
+    color: #043a88;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about-us-info i:hover {
+    background-color: orangered;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    transition: ease-in-out 1s;
 }
 
 .about-us-info li {
@@ -121,7 +177,7 @@
 }
 
 .myprojects-heading h2 {
-    color: #474193;
+    color: white;
     font-size: 40px;
     font-weight: 600;
 }
@@ -132,12 +188,25 @@
 }
 
 .project-bg {
-    background-color: #cbffab;
+    background: linear-gradient(90deg, rgb(156 148 253) 0%, rgb(255 108 238) 100%, rgb(34 48 146) 100%);
 }
 
-.card {
-    box-shadow: 1px 1px 15px 3px #c1c1c1;
-    border-radius: 20px !important;
+.card .card-image-top {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.card :hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.check-btn:hover {
+    background: linear-gradient(90deg, rgb(156 148 253) 0%, rgb(255 108 238) 100%, rgb(34 48 146) 100%);
+    color: white;
+    transition: ease 5s;
 }
 
 .project-check-btn {
@@ -149,10 +218,15 @@
     text-decoration: none;
 }
 
+.project-styles-row {
+    margin-left: 0px !important;
+}
+
 .check-btn {
     padding: 8px 25px;
     background-color: #474193;
     color: white;
+    border-radius: 10px;
 }
 
 .social-icon {
@@ -179,7 +253,7 @@
 }
 
 .footer-bg {
-    background-color: #fbe120;
+    background-color: rgb(212, 235, 255);
 }
 
 .contact-form {
@@ -205,6 +279,85 @@
     padding: 10px 0px;
     text-align: center;
     font-size: 17px;
+    background: linear-gradient(90deg, rgba(168, 242, 180, 1) 0%, rgb(124 255 48) 71%, rgba(0, 255, 98, 1) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 0px;
+        padding: 0px 20px;
+    }
+    .intro-sec-text-img {
+        display: flex;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    .intro-text h2 {
+        color: #fdba06;
+        font-size: 35px;
+        text-align: left;
+        margin-top: 40px;
+    }
+    .intro-text h1 {
+        color: #474193;
+        font-size: 40px;
+    }
+    .intro-image {
+        display: flex;
+        justify-content: center;
+    }
+    .intro-image img {
+        width: 400px;
+        height: 400px;
+    }
+    .intro-bg {
+        padding: 0px 0px;
+    }
+    .intro-view-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .aboutus-image img {
+        height: 400px;
+        width: 400px;
+    }
+    .aboutus-content h2 {
+        text-align: center;
+    }
+    .aboutus-line {
+        text-align: -webkit-center;
+    }
+    .aboutus-content h1 {
+        font-size: 35px;
+        color: #fdba06;
+        text-align: center;
+    }
+    .aboutus-line-style {
+        margin-bottom: 20px;
+    }
+    .about-us-info {
+        padding: 0px 50px;
+    }
+    .myprojects-heading h2 {
+        text-align: center;
+    }
+    .card {
+        width: 400px !important;
+        margin-bottom: 30px;
+    }
+    .social-connect h4 {
+        font-size: 28px;
+    }
+    .navigation h4 {
+        font-size: 28px;
+    }
+    .footer-bg {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-form {
+        width: 400px;
+    }
 }
 
 

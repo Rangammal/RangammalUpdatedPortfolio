@@ -185,6 +185,7 @@
 .project-styles-row {
     display: flex !important;
     justify-content: center;
+    margin-left: 0 !important;
 }
 
 .project-bg {
@@ -216,10 +217,6 @@
 
 .project-check-btn a {
     text-decoration: none;
-}
-
-.project-styles-row {
-    margin-left: 0px !important;
 }
 
 .check-btn {
@@ -263,7 +260,7 @@
 }
 
 .footer-contact {
-    padding: 30px 100px;
+    padding: 30px 0;
 }
 
 .contact-btn button {
@@ -281,6 +278,9 @@
     font-size: 17px;
     background: linear-gradient(90deg, rgba(168, 242, 180, 1) 0%, rgb(124 255 48) 71%, rgba(0, 255, 98, 1) 100%);
 }
+
+
+/* mobile responsive */
 
 @media only screen and (max-width: 768px) {
     .navbar {
@@ -357,6 +357,10 @@
     }
     .contact-form {
         width: 400px;
+    }
+    .card-style-resp {
+        display: flex;
+        justify-content: center;
     }
 }
 

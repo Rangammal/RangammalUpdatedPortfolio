@@ -14,64 +14,54 @@
 
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-sm  navbar-light">
-                        <div class="container-fluid">
-                            <a class="navbar-text" href="#">K RANGAMMAL</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">My Projects</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-text" href="#">K RANGAMMAL</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-            </div>
-
+            </nav>
         </div>
     </header>
     <main>
         <!-- introduction section start -->
         <section class="container-fluid intro-bg">
-            <div class="container">
-                <div class="row intro-sec-text-img">
-                    <div class="col-md-6">
-                        <div class="intro-text">
-                            <h2>Welcome !</h2>
-                            <h1>I am Rangammal</h1>
-                            <!-- <h3>Web Designer</h3> -->
-                            <p>Experienced Web Designer with a strong foundation in creating responsive and visually appealing web pages. Proficient in HTML5, CSS3, Bootstrap 5 and front end development principles. </p>
-                        </div>
-                        <div class="intro-view-btn">
-                            <button type="button">View my CV</button>
-                        </div>
+            <div class="row intro-sec-text-img">
+                <div class="col-md-6 flex-basis-40">
+                    <div class="intro-text">
+                        <h2>Welcome !</h2>
+                        <h1>I am Rangammal</h1>
+                        <!-- <h3>Web Designer</h3> -->
+                        <p>Experienced Web Designer with a strong foundation in creating responsive and visually appealing web pages. Proficient in HTML5, CSS3, Bootstrap 5 and front end development principles. </p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="intro-image">
-                            <img src="./assets/images/introduction-removebg-preview.png" alt="introduction-page image" width="650px" height="650px">
-                        </div>
+                    <div class="intro-view-btn">
+                        <button type="button">View my CV</button>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <img src="./assets/images/introduction-removebg-preview.png" alt="introduction-page image" class="hero-img">
+                </div>
             </div>
-
         </section>
+
         <!-- introduction section start -->
 
         <!-- about us section start -->
@@ -79,13 +69,13 @@
             <div class="container">
                 <div class="row aboutus-section">
                     <div class="aboutus-image col-md-6">
-                        <img src="./assets/images/about-us-removebg-preview.png" alt="About-us-image" width="650px" height="650px">
+                        <img src="./assets/images/about-us-removebg-preview.png" alt="About-us-image">
                     </div>
                     <div class="aboutus-content col-md-6">
                         <h2>About Us</h2>
-                        <div class="aboutus-line">
+                        <!-- <div class="aboutus-line">
                             <div class="aboutus-line-style"></div>
-                        </div>
+                        </div> -->
                         <h1>I'm Website Designer</h1>
                         <ul class="about-us-info">
                             <!-- <li><a href="#"></a></li>
@@ -105,22 +95,22 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!-- about us section end -->
+
         <section class="container-fluid project-bg">
             <div class="container">
                 <div class="project-styles">
                     <div class="row project-styles-row">
                         <div class="myprojects-heading">
                             <h2>My Projects</h2>
-                            <div class="aboutus-line">
+                            <!-- <div class="aboutus-line">
                                 <div class="aboutus-line-style"></div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-md-4 card-style-resp">
-                            <div class="card" style="width: 300px;">
+                            <div class="card">
                                 <img class="card-img-top" src="./assets/images/engineer.jpg" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">DTY Services</h4>
@@ -132,7 +122,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 card-style-resp">
-                            <div class="card" style="width: 300px;">
+                            <div class="card">
                                 <img class="card-img-top" src="./assets/images/invest.jpg" alt="Card image">
                                 <div class="card-body">
                                     <h4 class="card-title">Sprowtff</h4>
@@ -145,8 +135,8 @@
                             </div>
                         </div>
                         <div class="col-md-4 card-style-resp">
-                            <div class="card" style="width: 300px;">
-                                <img class="card-img-top" src="./assets/images/learning.jpg" alt="Card image" height="203px">
+                            <div class="card">
+                                <img class="card-img-top" src="./assets/images/learning.jpg" alt="Card image" height="262px">
                                 <div class="card-body">
                                     <h4 class="card-title">Erasmas</h4>
                                     <p class="card-text">Rest builds your ability to respond to stressful or unexpected situations or crises. Previous
@@ -154,7 +144,6 @@
                                     <div class="project-check-btn">
                                         <a href="https://approachrest.eu/" target="_blank" class="check-btn">Checkout</a>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -227,10 +216,8 @@
                 </div>
             </div>
         </section>
+
     </main>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
